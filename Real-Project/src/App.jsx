@@ -1,8 +1,11 @@
 import "./App.css";
 import AppNavigator from "./Components/AppNavigator";
 import Card from "./Components/Card"
+import Card2 from "./Components/Card2"
 import ImageCards from './Components/ImageCards';
 import TextImageCards from './Components/TextImgcard';
+import VideoCard from './/Components/VideoCard'
+import CardBoxes from './/Components/CardBoxes'
 
 const images = [
   'https://picsum.photos/id/1018/400/300',
@@ -29,6 +32,9 @@ export default function App() {
       <div className="p-8">
       <ImageCards images={images} />
       <TextImageCards />
+      <VideoCard />
+      <CardBoxes />
+      <Card2 />
     </div>
     </div>
   );

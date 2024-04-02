@@ -27,9 +27,7 @@ const ImageCards = ({ images }) => {
       <div className="text-center">
       <button className="py-3 px-1 bg-yellow-400/20 hover:bg-yellow-500/30 border-2 border-yellow-500  text-white font-bold">
           Join the Real World
-        </button>
-        
-        
+        </button> 
       </div>
       <div className="flex justify-center mt-8">
         <div className="w-10 h-30 relative overflow-hidden rounded-full">
