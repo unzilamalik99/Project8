@@ -6,7 +6,6 @@ import ImageCards from "./Components/ImageCards";
 import TextImageCards from "./Components/TextImgcard";
 import VideoCard from ".//Components/VideoCard";
 import CardBoxes from ".//Components/CardBoxes";
-import Feature from "./Components/Feature";
 
 const images = [
   "https://picsum.photos/id/1018/400/300",
@@ -27,11 +26,10 @@ export default function App() {
   return (
     <div>
       <AppNavigator />
+      <VideoSlider />
       <Card />
       <div className="p-8">
         <ImageCards images={images} />
-
-        <Feature />
         <TextImageCards />
         <VideoCard />
         <CardBoxes />
