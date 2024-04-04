@@ -33,14 +33,21 @@ const Header = () => {
 
         <header className="text-white pt-[100px] pl-10 b flex">
           <nav
-            className={`ml-10 absolute bg-slate-900 border solid border-slate-700 ${
+            className={`ml-10 fixed top-[100px] z-50 bg-slate-900 border solid border-slate-700 ${
               navbar ? "slide-in" : "hidden"
             }`}
+            style={{ width: "290px" }} // Set the width of the navigation menu
           >
-            <div className="font-semibold  m-[35px] md:text-xl  w-[200px] md:w-[280px] flex flex-col gap-4 text-white border-slate-700">
+            <div className="font-semibold m-[35px] md:text-xl flex flex-col gap-4 text-white border-slate-700">
+              <Link
+                to="/"
+                className="hover:text-gray-600 focus:outline-none border-b border-slate-700 text-left pb-5"
+              >
+                <button>Home</button>
+              </Link>
               <Link
                 to="/interviews"
-                className="hover:text-gray-600 focus:outline-none border-b border-slate-700 text-left pb-5 "
+                className="hover:text-gray-600 focus:outline-none border-b border-slate-700 text-left pb-5"
               >
                 <button>Interviews</button>
               </Link>
