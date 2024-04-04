@@ -38,7 +38,7 @@ const FAQItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="rounded-lg shadow-lg p-3">
+    <div className="rounded-lg shadow-lg p-4">
       <button
         className="flex items-center justify-between w-full py-2 font-medium text-left text-gray-200 bg-custom-color focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded transition duration-150 ease-in-out"
         onClick={() => setIsOpen(!isOpen)}

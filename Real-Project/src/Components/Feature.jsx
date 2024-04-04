@@ -25,12 +25,12 @@ const Feature = () => {
     <>
       <div
         id="feature-section"
-        className="w-full h-screen"
+        className="w-full h-screen p-5"
         style={{
           position: "relative",
           overflowY: "auto",
           overflowx: "auto",
-
+          
           // maxHeight: "80vh",
           // maxWidth: "auto",
         }}

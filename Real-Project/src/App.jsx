@@ -8,6 +8,9 @@ import VideoCard from ".//Components/VideoCard";
 import CardBoxes from ".//Components/CardBoxes";
 import VideoSlider from ".//Components/VideoSlider";
 import Feature from "./Components/Feature";
+import PricingCard from ".//Components/PricingCards";
+import FAQ from ".//Components/FAQ";
+import Footer from ".//Components/Footer";
 
 const images = [
   "https://picsum.photos/id/1018/400/300",
@@ -37,7 +40,10 @@ export default function App() {
         <VideoCard />
         <CardBoxes />
         <Card2 />
+        <PricingCard />
+        <FAQ />
       </div>
+      <Footer />
     </div>
   );
 }
